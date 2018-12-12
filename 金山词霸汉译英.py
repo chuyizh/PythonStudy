@@ -1,4 +1,5 @@
 ```python
+
 import urllib.request
 import urllib.parse
 import json
@@ -12,4 +13,5 @@ data=response.read().decode('utf8')
 result=json.loads(data)
 dest=result['content']['out']
 print('翻译的结果为：'+ dest)
+
 ```
