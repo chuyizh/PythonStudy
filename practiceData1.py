@@ -24,5 +24,7 @@ d_duplicates.topSalary=d_duplicates.topSalary.astype('int')
 d_duplicates.bottomSalary=d_duplicates.bottomSalary.astype('int')
 d_duplicates['avgSalary']=d_duplicates.apply(lambda x:(x.bottomSalary+x.topSalary)/2,axis=1)
 d_clean=d_duplicates[['city','companyShortName','companySize','education','positionName','positionLables','workYear','avgSalary']]
+d_clean.city.value_counts()
+d_clean.describe()
 d_clean.avgSalary.hist()
 d_clean.avgSalary.hist(bins=15)
