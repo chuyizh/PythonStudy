@@ -1,4 +1,4 @@
-# pythonstudy
+# PythonStudy
 ## Python数据分析
 - 数据分析练习1（未完）  
   [practiceData1.py](practiceData1.py)  
