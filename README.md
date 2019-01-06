@@ -2,7 +2,7 @@
 ## Python数据分析
 - 数据分析练习1（未完）  
   [practiceData1.py](practiceData1.py)  
-  [数据](DataAnalyst.csv#Data)
+  [csv数据文件](DataAnalyst.csv#Data)
 ## Python爬虫
 - 豆瓣电影排行榜  
   [DoubanMovies.py](DoubanMovies.py)  
