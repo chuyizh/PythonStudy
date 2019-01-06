@@ -8,7 +8,9 @@
   [DoubanMovies.py](DoubanMovies.py)  
   [正则](DoubanMoviesRe.txt#Data)
 - 豆瓣阅读出版社  
-  [DoubanProvider.py](DoubanProvider.py)  
+  [DoubanProvider.py](DoubanProvider.py) 
+- CSDN首页及其延展博客页面
+  [CsdnIndex.py](CsdnIndex.py)
 - 糗事百科幽默笑话大全  
   [QiushibaikeText.py](QiushibaikeText.py)  
   [正则](qiushibaikeRe.txt#Data)
