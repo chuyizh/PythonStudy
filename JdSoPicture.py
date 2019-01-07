@@ -65,7 +65,7 @@ for i in range(0,pageint):
             imgurl='http:'+img
             file='C:\\Users\\乙\\Desktop\\JD\\'+str(i)+str(j)+'.jpg'
             urllib.request.urlretrieve(imgurl,filename=file)
-        print('爬取结束，爬取了'+len(rstjd)+'个图片')
+        print('爬取结束')
     except Exception as err:
         print(err)
         #print('抓取失败，请更换代理')
