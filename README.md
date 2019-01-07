@@ -22,7 +22,7 @@
 - 金山词霸汉译英（requests库）  
   [金山词霸汉译英（requests库）.py](金山词霸汉译英（requests库）.py)  
 - 西刺代理HTTP  
-  [XicidailiHttp.py](XicidailiHttp.py)
+  [XicidailiHttp.py](XicidailiHttp.py)  
   [正则](Data/XicidailiHttpRe.txt)
 - 京东搜索图片爬取  
   [JdSoPicture.py](JdSoPicture.py)  
