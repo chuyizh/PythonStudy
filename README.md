@@ -21,6 +21,8 @@
   [金山词霸汉译英(request库).py](金山词霸汉译英(request库).py)  
 - 金山词霸汉译英（requests库）  
   [金山词霸汉译英（requests库）.py](金山词霸汉译英（requests库）.py)  
+- 京东搜索图片爬取  
+  [JdSoPicture.py](JdSoPicture.py)  
 ## Python reptile 
 
 ## Python Data Analysis
