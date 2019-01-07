@@ -36,7 +36,7 @@ pagenum=input()
 pageint=int(pagenum)
 page=2*int(pagenum)-1
 print('爬虫模块加载中')
-'''
+'''代理IP获取
 print('开始加载代理IP')
 usersagent(keys)
 url='https://www.xicidaili.com/wt/'
