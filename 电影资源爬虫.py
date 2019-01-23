@@ -2,20 +2,6 @@ import urllib.request
 from lxml import etree
 import re
 import time
-import os
-'''
-def mkdir(path):
-    path = path.strip()
-    path = path.rstrip("\\")
-    isExists = os.path.exists(path)
-    if not isExists:
-        os.makedirs(path)
-        return True
-    else:
-        return False
-mkpath = "c:\\电影资源\\"
-mkdir(mkpath)
-'''
 def everyurl(url):
     headers = ('User-Agent','Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36')
     opener = urllib.request.build_opener()
@@ -42,7 +28,7 @@ def oneurl(oneurl):
     opener.addheaders = [headers]
     urllib.request.install_opener(opener)
     newurl = []
-    for i in range(1,2):
+    for i in range(1,60):
         allurl = oneurl+'?m=vod-index-pg-'+str(i)+'.html'
         data = urllib.request.urlopen(allurl, timeout=5).read().decode('utf8', 'ignore')
         mid = etree.HTML(data)
@@ -63,7 +49,8 @@ for url in urls:
             except Exception as err:
                 print('资源爬取失败')
     except Exception as err:
-        print('链接失效')
+        print('主链接失效')
 print('资源爬取结束')
 print('爬虫功能完善中，如有问题请及时反馈')
 print('                                   -----by:将往')
+time.sleep(15)
