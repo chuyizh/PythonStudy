@@ -8,7 +8,7 @@ def seach (url,text):
     allurl=[]
     newurl=url+'/index.php?m=vod-search'
     data={
-        'wd': txt,
+        'wd': text,
         'submit': 'search',
     }
     seachdata=requests.post(newurl,data=data,headers=heards)
